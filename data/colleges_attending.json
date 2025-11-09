@@ -1,0 +1,1213 @@
+[
+  {
+    "name": "Amherst College",
+    "division": "Division 3",
+    "conference": "New England Small College Athletic Conference",
+    "location": "Amherst, MA",
+    "type": "Private",
+    "website": "https://www.amherst.edu/",
+    "coaches": [
+      {
+        "name": "Justin Serpone",
+        "title": "College Head Coach"
+      },
+      {
+        "name": "Alex Ortega",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Baldwin Wallace University",
+    "division": "Division 3",
+    "conference": "Ohio Athletic Conference",
+    "location": "Berea, OH",
+    "type": "Private",
+    "website": "https://https//www.bwyellowjackets.com/",
+    "coaches": [
+      {
+        "name": "Reid Ayers",
+        "title": "College Head Coach"
+      },
+      {
+        "name": "Joseph Jovanovski",
+        "title": "College Assistant Coach",
+        "email": "jjovanov@bw.edu"
+      }
+    ]
+  },
+  {
+    "name": "Bates College",
+    "division": "Division 3",
+    "conference": "New England Small College Athletic Conference",
+    "location": "Lewiston, ME",
+    "type": "Private",
+    "website": "https://www.bates.edu/",
+    "coaches": [
+      {
+        "name": "Amory Houghton",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Biola University",
+    "division": "Division 2",
+    "conference": "Independent",
+    "location": "La Mirada, CA",
+    "type": "Private",
+    "website": "https://https//athletics.biola.edu/sports/mens-soccer",
+    "coaches": [
+      {
+        "name": "Joey O'Keefe",
+        "title": "College Head Coach",
+        "email": "bu.men.soccer@biola.edu"
+      }
+    ]
+  },
+  {
+    "name": "California Lutheran University",
+    "division": "Division 3",
+    "conference": "Southern California Intercollegiate Athletic Conf.",
+    "location": "Thousand Oaks, CA",
+    "type": "Private",
+    "website": "https://www.callutheran.edu/",
+    "coaches": [
+      {
+        "name": "Miguel Ruiz",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "California Polytechnic State University - San Luis Obispo",
+    "division": "Division 1",
+    "conference": "Big West Conference",
+    "location": "San Luis Obispo, CA",
+    "type": "Public",
+    "website": "https://www.calpoly.edu/",
+    "coaches": [
+      {
+        "name": "Oige Kennedy",
+        "title": "College Head Coach"
+      },
+      {
+        "name": "Zach  Watson",
+        "title": "College Assistant Coach",
+        "email": "mensoccer@calpoly.edu"
+      },
+      {
+        "name": "Brandon Bautista",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "California State University - Sacramento",
+    "division": "Division 1",
+    "conference": "Big West Conference",
+    "location": "Sacramento, CA",
+    "type": "Public",
+    "website": "https://www.csus.edu/",
+    "coaches": [
+      {
+        "name": "Michael Linenberger",
+        "title": "College Head Coach"
+      },
+      {
+        "name": "Hector Grajeda",
+        "title": "College Assistant Coach",
+        "email": "h.grajeda@csus.edu"
+      },
+      {
+        "name": "Matt McDougall",
+        "title": "Associate Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Carnegie Mellon University",
+    "division": "Division 3",
+    "conference": "University Athletic Association",
+    "location": "Pittsburgh, PA",
+    "type": "Private",
+    "website": "https://www.cmu.edu/",
+    "coaches": [
+      {
+        "name": "Ross Macklin",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Case Western Reserve University",
+    "division": "Division 3",
+    "conference": "University Athletic Association",
+    "location": "Cleveland, OH",
+    "type": "Private",
+    "website": "https://www.case.edu/",
+    "coaches": [
+      {
+        "name": "Fernando Lisboa",
+        "title": "College Assistant Coach",
+        "email": "fxm272@case.edu"
+      }
+    ]
+  },
+  {
+    "name": "Chaminade University of Honolulu",
+    "division": "Division 2",
+    "conference": "Pacific West Conference",
+    "location": "Honolulu, HI",
+    "type": "Private",
+    "website": "https://https//goswords.com/",
+    "coaches": [
+      {
+        "name": "joshua woodard",
+        "title": "College Head Coach"
+      },
+      {
+        "name": "Joshua Woodard",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Chapman University",
+    "division": "Division 3",
+    "conference": "Southern California Intercollegiate Athletic Conf.",
+    "location": "Orange, CA",
+    "type": "Private",
+    "website": "https://http//www.chapman.edu",
+    "coaches": [
+      {
+        "name": "Stephen Teal",
+        "title": "College Assistant Coach",
+        "email": "steal@chapman.edu"
+      }
+    ]
+  },
+  {
+    "name": "Chatham University",
+    "division": "Division 3",
+    "conference": "Presidents' Athletic Conference",
+    "location": "Pittsburgh, PA",
+    "type": "Private",
+    "website": "https://www.chatham.edu/",
+    "coaches": [
+      {
+        "name": "Keith Danley",
+        "title": "College Head Coach",
+        "email": "k.danley@chatham.edu"
+      }
+    ]
+  },
+  {
+    "name": "Claremont-Mudd-Scripps",
+    "division": "Division 3",
+    "conference": "Southern California Intercollegiate Athletic Conf.",
+    "location": "Claremont, CA",
+    "type": "Private",
+    "website": "https://www.cmsathletics.org/",
+    "coaches": [
+      {
+        "name": "Edward Cartee",
+        "title": "College Head Coach",
+        "email": "edward.cartee@cms.claremont.edu"
+      }
+    ]
+  },
+  {
+    "name": "Clark University",
+    "division": "Division 3",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "location": "Worcester, MA",
+    "type": "Private",
+    "website": "https://www.clarku.edu/",
+    "coaches": [
+      {
+        "name": "Sam Matteson",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Colby College",
+    "division": "Division 3",
+    "conference": "New England Small College Athletic Conference",
+    "location": "Waterville, ME",
+    "type": "Private",
+    "website": "https://www.colby.edu/",
+    "coaches": [
+      {
+        "name": "Sean Elvert",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "College of the Holy Cross",
+    "division": "Division 1",
+    "conference": "Patriot League",
+    "location": "Worcester, MA",
+    "type": "Private",
+    "website": "https://www.holycross.edu/",
+    "coaches": [
+      {
+        "name": "Matthew Brown",
+        "title": "College Head Coach"
+      },
+      {
+        "name": "Augusto Lima",
+        "title": "College Assistant Coach"
+      },
+      {
+        "name": "Anthony Scaravillo",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Colorado School of Mines",
+    "division": "Division 2",
+    "conference": "Rocky Mountain Athletic Conference",
+    "location": "Golden, CO",
+    "type": "Public",
+    "website": "https://https//minesathletics.com/",
+    "coaches": [
+      {
+        "name": "Greg Mulholland",
+        "title": "College Head Coach"
+      },
+      {
+        "name": "Ben Fredrickson",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Earlham College",
+    "division": "Division 3",
+    "conference": "Heartland Collegiate Athletic Conference",
+    "location": "Richmond, IN",
+    "type": "Private",
+    "website": "https://www.earlham.edu/",
+    "coaches": [
+      {
+        "name": "Ethan Getman",
+        "title": "Grad Assistant",
+        "email": "ecgetman18@earlham.edu"
+      }
+    ]
+  },
+  {
+    "name": "East Texas Baptist University",
+    "division": "Division 3",
+    "conference": "American Southwest Conference",
+    "location": "Marshall, TX",
+    "type": "Private",
+    "website": "https://www.etbu.edu/",
+    "coaches": [
+      {
+        "name": "Chris Crawford",
+        "title": "College Head Coach",
+        "email": "chrisc@etbu.edu"
+      },
+      {
+        "name": "Jordan Burke",
+        "title": "Associate Head Coach",
+        "email": "jburke@etbu.edu"
+      }
+    ]
+  },
+  {
+    "name": "Eastern Arizona College",
+    "division": "JC",
+    "conference": "Region 1",
+    "location": "Thatcher, AZ",
+    "type": "public",
+    "website": "https://https//eacmonsters.com",
+    "coaches": [
+      {
+        "name": "Bradley Kirby-Brisley",
+        "title": "College Assistant Coach",
+        "email": "bradley.kirbybrisley@eac.edu"
+      }
+    ]
+  },
+  {
+    "name": "Elmhurst College",
+    "division": "Division 3",
+    "conference": "College Conference of Illinois & Wisconsin",
+    "location": "Elmhurst, IL",
+    "type": "Private",
+    "website": "https://public.elmhurst.edu/",
+    "coaches": [
+      {
+        "name": "Tim Dean",
+        "title": "College Head Coach",
+        "email": "tim.dean@elmhurst.edu"
+      }
+    ]
+  },
+  {
+    "name": "Emerson College",
+    "division": "Division 3",
+    "conference": "New England Women's and Men's Athletic Conference",
+    "location": "Boston, MA",
+    "type": "Private",
+    "website": "https://www.emerson.edu/",
+    "coaches": [
+      {
+        "name": "Liam McKersie",
+        "title": "College Head Coach",
+        "email": "liam_mckersie@emerson.edu"
+      }
+    ]
+  },
+  {
+    "name": "Gonzaga University",
+    "division": "Division 1",
+    "conference": "West Coast Conference",
+    "location": "Spokane, WA",
+    "type": "Private",
+    "website": "https://www.gonzaga.edu/",
+    "coaches": [
+      {
+        "name": "James  Garces",
+        "title": "College Assistant Coach",
+        "email": "garces@gonzaga.edu"
+      },
+      {
+        "name": "Christo Michaelson",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Goucher College",
+    "division": "Division 3",
+    "conference": "Landmark Conference",
+    "location": "Baltimore, MD",
+    "type": "Private",
+    "website": "https://www.goucher.edu/",
+    "coaches": [
+      {
+        "name": "Bryan Laut",
+        "title": "College Head Coach",
+        "email": "bryan.laut@goucher.edu"
+      },
+      {
+        "name": "Wills Huddleston",
+        "title": "Grad Assistant",
+        "email": "william.huddleston@goucher.edu"
+      }
+    ]
+  },
+  {
+    "name": "Hamilton College",
+    "division": "Division 3",
+    "conference": "New England Small College Athletic Conference",
+    "location": "Clinton, NY",
+    "type": "Private",
+    "website": "https://www.hamilton.edu/",
+    "coaches": [
+      {
+        "name": "Brendan Ujvary",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Hartwick College",
+    "division": "Division 3",
+    "conference": "Empire 8",
+    "location": "Oneonta, NY",
+    "type": "Private",
+    "website": "https://www.hartwick.edu/",
+    "coaches": [
+      {
+        "name": "Ryan Hilty",
+        "title": "College Assistant Coach",
+        "email": "hiltyr@hartwick.edu"
+      }
+    ]
+  },
+  {
+    "name": "Haverford College",
+    "division": "Division 3",
+    "conference": "Centennial Conference",
+    "location": "Haveford, PA",
+    "type": "Private",
+    "website": "https://www.haverford.edu/",
+    "coaches": [
+      {
+        "name": "Kevin Brenner",
+        "title": "College Head Coach",
+        "email": "kbrenner@haverford.edu"
+      }
+    ]
+  },
+  {
+    "name": "Hawaii Pacific University",
+    "division": "Division 2",
+    "conference": "Pacific West Conference",
+    "location": "Honolulu, HI",
+    "type": "private",
+    "website": "https://www.hpu.edu/",
+    "coaches": [
+      {
+        "name": "Chris Fisher",
+        "title": "College Head Coach",
+        "email": "cfisher@hpu.edu"
+      }
+    ]
+  },
+  {
+    "name": "Howard Payne University",
+    "division": "Division 3",
+    "conference": "American Southwest Conference",
+    "location": "Brownwood, TX",
+    "type": "Private",
+    "website": "https://www.hputx.edu/",
+    "coaches": [
+      {
+        "name": "Brandon McGibeny",
+        "title": "College Head Coach",
+        "email": "bmcgibeny@hputx.edu"
+      }
+    ]
+  },
+  {
+    "name": "Illinois College",
+    "division": "Division 3",
+    "conference": "",
+    "location": "Jacksonville, IL",
+    "type": "Private",
+    "website": "https://www.ic.edu/",
+    "coaches": [
+      {
+        "name": "Evan Philpott",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "La Verne University",
+    "division": "Division 3",
+    "conference": "Southern California Intercollegiate Athletic Conf.",
+    "location": "La Verne, CA",
+    "type": "Private",
+    "website": "https://https//www.leopardathletics.com/sports/wsoc/index",
+    "coaches": [
+      {
+        "name": "Drew Rea",
+        "title": "College Head Coach",
+        "email": "drea@laverne.edu"
+      },
+      {
+        "name": "Bryan Phillips",
+        "title": "College Assistant Coach",
+        "email": "bphillips@laverne.edu"
+      }
+    ]
+  },
+  {
+    "name": "LeTourneau University",
+    "division": "Division 3",
+    "conference": "American Southwest Conference",
+    "location": "Longview, TX",
+    "type": "Private",
+    "website": "https://www.letu.edu/",
+    "coaches": [
+      {
+        "name": "TJ Milby",
+        "title": "College Head Coach",
+        "email": "tjmilby@letu.edu"
+      }
+    ]
+  },
+  {
+    "name": "Lewis & Clark College",
+    "division": "Division 3",
+    "conference": "Northwest Conference",
+    "location": "Portland, OR",
+    "type": "private",
+    "website": "https://www.lclark.edu/",
+    "coaches": [
+      {
+        "name": "Fraser Morrison",
+        "title": "College Assistant Coach",
+        "email": "fraserm@lclark.edu"
+      }
+    ]
+  },
+  {
+    "name": "Linfield University",
+    "division": "Division 3",
+    "conference": "Northwest Conference",
+    "location": "McMinnville, OR",
+    "type": "Public",
+    "website": "https://https//golinfieldwildcats.com/",
+    "coaches": [
+      {
+        "name": "Andrew Duvall",
+        "title": "College Head Coach",
+        "email": "aduvall@linfield.edu"
+      }
+    ]
+  },
+  {
+    "name": "Loras College",
+    "division": "Division 3",
+    "conference": "American Rivers Conference",
+    "location": "Dubuque, IA",
+    "type": "Private",
+    "website": "https://www.loras.edu/",
+    "coaches": [
+      {
+        "name": "Sam Koenig",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Macalester College",
+    "division": "Division 3",
+    "conference": "Minnesota Intercollegiate Athletic Conference",
+    "location": "St Paul, MN",
+    "type": "Private",
+    "website": "https://https//athletics.macalester.edu/",
+    "coaches": [
+      {
+        "name": "Oscar Campbell",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Nebraska Wesleyan University",
+    "division": "Division 3",
+    "conference": "Independent",
+    "location": "Lincoln, NE",
+    "type": "Private",
+    "website": "https://www.nebrwesleyan.edu/",
+    "coaches": [
+      {
+        "name": "Hunter Sowersby",
+        "title": "College Assistant Coach",
+        "email": "hsowersb@nebrwesleyan.edu"
+      }
+    ]
+  },
+  {
+    "name": "Nichols College",
+    "division": "Division 3",
+    "conference": "Commonwealth Coast Conference",
+    "location": "Dudley, MA",
+    "type": "Private",
+    "website": "https://www.nichols.edu/",
+    "coaches": [
+      {
+        "name": "Marco DeVito",
+        "title": "College Head Coach",
+        "email": "marco.devito@nichols.edu"
+      }
+    ]
+  },
+  {
+    "name": "Norco College",
+    "division": "JC",
+    "conference": "Orange Empire Conference",
+    "location": "Norco, CA",
+    "type": "Public",
+    "website": "https://https//athletics.norcocollege.edu/navbar-sports",
+    "coaches": [
+      {
+        "name": "Oscar Gaytan",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Oberlin College",
+    "division": "Division 3",
+    "conference": "North Coast Athletic Conference",
+    "location": "Oberlin, OH",
+    "type": "Private",
+    "website": "https://www.oberlin.edu/",
+    "coaches": [
+      {
+        "name": "Blake New",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Ottawa University - Phoenix",
+    "division": "Division 3",
+    "conference": "",
+    "location": "Surprise, AZ",
+    "type": "Private",
+    "website": "https://ouazspirit.com/",
+    "coaches": [
+      {
+        "name": "David Stockton",
+        "title": "College Head Coach",
+        "email": "david.stockton@ottawa.edu"
+      },
+      {
+        "name": "Darragh Boyle",
+        "title": "College Assistant Coach",
+        "email": "darragh.boyle@ottawa.edu"
+      }
+    ]
+  },
+  {
+    "name": "Pacific University",
+    "division": "Division 3",
+    "conference": "Northwest Conference",
+    "location": "Forest Grove, OR",
+    "type": "Private",
+    "website": "https://www.pacificu.edu/",
+    "coaches": [
+      {
+        "name": "Brandon Porter",
+        "title": "College Head Coach",
+        "email": "brandonporter@pacificu.edu"
+      }
+    ]
+  },
+  {
+    "name": "Paradise Valley Community College",
+    "division": "JC",
+    "conference": "",
+    "location": "Phoenix, AZ",
+    "type": "Public",
+    "website": "https://https//www.gopumas.com",
+    "coaches": [
+      {
+        "name": "Christian Devries",
+        "title": "College Head Coach",
+        "email": "christian.devries@paradisevalley.edu"
+      },
+      {
+        "name": "Whellyn Carroll",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Rhodes College",
+    "division": "Division 3",
+    "conference": "Southern Collegiate Athletic Conference",
+    "location": "Memphis, TN",
+    "type": "private",
+    "website": "https://https//www.rhodes.edu/",
+    "coaches": [
+      {
+        "name": "Matt Lamb",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Ripon College",
+    "division": "Division 3",
+    "conference": "",
+    "location": "Ripon, WI",
+    "type": "Private",
+    "website": "https://www.ripon.edu/",
+    "coaches": [
+      {
+        "name": "Marco Rhein",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Saint Mary's College of California",
+    "division": "Division 1",
+    "conference": "West Coast Conference",
+    "location": "Moraga, CA",
+    "type": "Private",
+    "website": "https://http//www.stmarys-ca.edu/",
+    "coaches": [
+      {
+        "name": "Remi Prieur",
+        "title": "College Assistant Coach"
+      },
+      {
+        "name": "Shawn Nicklaw",
+        "title": "College Assistant Coach",
+        "email": "srn6@stmarys-ca.edu"
+      }
+    ]
+  },
+  {
+    "name": "Sarah Lawrence College",
+    "division": "Division 3",
+    "conference": "Skyline Conference",
+    "location": "Bronxville, NY",
+    "type": "Private",
+    "website": "https://https//gogryphons.com",
+    "coaches": [
+      {
+        "name": "Evan Brandsdorfer",
+        "title": "College Head Coach",
+        "email": "ebrandsdorfer@sarahlawrence.edu"
+      }
+    ]
+  },
+  {
+    "name": "Soka University",
+    "division": "NAIA",
+    "conference": "California Pacific Conference",
+    "location": "Aliso Viejo, CA",
+    "type": "private",
+    "website": "https://https//www.soka.edu",
+    "coaches": [
+      {
+        "name": "Shawn Beyer",
+        "title": "College Assistant Coach",
+        "email": "sbeyer@soka.edu"
+      },
+      {
+        "name": "Alex Zotinca",
+        "title": "College Assistant Coach",
+        "email": "azotinca@soka.edu"
+      }
+    ]
+  },
+  {
+    "name": "South Dakota School of Mines and Technology",
+    "division": "Division 2",
+    "conference": "Rocky Mountain Athletic Conference",
+    "location": "Rapid City, SD",
+    "type": "Public",
+    "website": "https://https//www.sdsmt.edu/index.html",
+    "coaches": [
+      {
+        "name": "Teren Schuster",
+        "title": "College Head Coach",
+        "email": "teren.schuster@sdsmt.edu"
+      },
+      {
+        "name": "Robert Reagan",
+        "title": "College Assistant Coach",
+        "email": "Robert.Reagan@sdsmt.edu"
+      }
+    ]
+  },
+  {
+    "name": "St. Norbert College",
+    "division": "Division 3",
+    "conference": "",
+    "location": "De Pere, WI",
+    "type": "Private",
+    "website": "https://www.snc.edu/",
+    "coaches": [
+      {
+        "name": "Tyler Kassube",
+        "title": "College Assistant Coach",
+        "email": "tyler.kassube@snc.edu"
+      }
+    ]
+  },
+  {
+    "name": "Stonehill College",
+    "division": "Division 1",
+    "conference": "Northeast Conference",
+    "location": "Easton, MA",
+    "type": "Private",
+    "website": "https://www.stonehill.edu/",
+    "coaches": [
+      {
+        "name": "Jim Reddish",
+        "title": "College Head Coach",
+        "email": "jreddish@stonehill.edu"
+      }
+    ]
+  },
+  {
+    "name": "SUNY Delhi",
+    "division": "Division 3",
+    "conference": "Independent",
+    "location": "Delhi, NY",
+    "type": "Public",
+    "website": "https://https//delhibroncos.com/landing/index",
+    "coaches": [
+      {
+        "name": "Matthew Esposito",
+        "title": "College Head Coach",
+        "email": "esposiml@delhi.edu"
+      }
+    ]
+  },
+  {
+    "name": "TGS Test University",
+    "division": "Division 1",
+    "conference": "Pac-12 Conference",
+    "location": "Yorba Linda, CA",
+    "type": "Public",
+    "website": "https://",
+    "coaches": [
+      {
+        "name": "Bri Whitaker",
+        "title": "Grad Assistant"
+      }
+    ]
+  },
+  {
+    "name": "The University of Texas at Dallas",
+    "division": "Division 2",
+    "conference": "Lone Star Conference",
+    "location": "Richardson, TX",
+    "type": "Public",
+    "website": "https://n/a",
+    "coaches": [
+      {
+        "name": "Jason Hirsch",
+        "title": "College Head Coach"
+      },
+      {
+        "name": "Jude Anuwe",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "United States Military Academy at West Point",
+    "division": "Division 1",
+    "conference": "Patriot League",
+    "location": "West  Point, NY",
+    "type": "Public",
+    "website": "https://https//goarmywestpoint.com/sports/womens-soccer",
+    "coaches": [
+      {
+        "name": "Jonathan Delano",
+        "title": "College Assistant Coach"
+      },
+      {
+        "name": "Chris Koch",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "United States Naval Academy",
+    "division": "Division 1",
+    "conference": "Patriot League",
+    "location": "Annapolis, MD",
+    "type": "Public",
+    "website": "https://https//navysports.com/sports/",
+    "coaches": [
+      {
+        "name": "Mark Risbridger",
+        "title": "Associate Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "University of California - Merced",
+    "division": "Division 2",
+    "conference": "California Collegiate Athletic Association",
+    "location": "Merced, CA",
+    "type": "Public",
+    "website": "https://https//www.ucmerced.edu/",
+    "coaches": [
+      {
+        "name": "Albert Martins",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "University of Dubuque",
+    "division": "Division 3",
+    "conference": "American Rivers Conference",
+    "location": "Dubuque, IA",
+    "type": "Private",
+    "website": "https://www.dbq.edu/",
+    "coaches": [
+      {
+        "name": "Andrew Mathys",
+        "title": "College Head Coach",
+        "email": "amathys@dbq.edu"
+      }
+    ]
+  },
+  {
+    "name": "University of Mary Hardin-Baylor",
+    "division": "Division 3",
+    "conference": "American Southwest Conference",
+    "location": "Belton, TX",
+    "type": "Private",
+    "website": "https://www.umhb.edu/",
+    "coaches": [
+      {
+        "name": "Ben Allen",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "University of Mount Saint Vincent",
+    "division": "Division 3",
+    "conference": "Skyline Conference",
+    "location": "Riverdale, NY",
+    "type": "private",
+    "website": "https://www.mountsaintvincent.edu/",
+    "coaches": [
+      {
+        "name": "Max Watson",
+        "title": "College Head Coach",
+        "email": "maxwell.watson@umsv.edu"
+      },
+      {
+        "name": "Andrew Laurenzano",
+        "title": "College Assistant Coach",
+        "email": "andrew.laurenzano@umsv.edu"
+      }
+    ]
+  },
+  {
+    "name": "University of Puget Sound",
+    "division": "Division 3",
+    "conference": "Northwest Conference",
+    "location": "Tacoma, WA",
+    "type": "Private",
+    "website": "https://www.pugetsound.edu/",
+    "coaches": [
+      {
+        "name": "Steve Mohn",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "University of Redlands",
+    "division": "Division 3",
+    "conference": "Independent",
+    "location": "Redlands, CA",
+    "type": "Private",
+    "website": "https://www.redlands.edu/",
+    "coaches": [
+      {
+        "name": "Cody Carlson",
+        "title": "College Assistant Coach",
+        "email": "cody_carlson@redlands.edu"
+      }
+    ]
+  },
+  {
+    "name": "University of The Pacific",
+    "division": "Division 1",
+    "conference": "West Coast Conference",
+    "location": "Stockton, CA",
+    "type": "Private",
+    "website": "https://www.pacific.edu/",
+    "coaches": [
+      {
+        "name": "Logan Kowalczyk",
+        "title": "College Assistant Coach",
+        "email": "lkowalczyk@pacific.edu"
+      }
+    ]
+  },
+  {
+    "name": "University of The Southwest",
+    "division": "NAIA",
+    "conference": "Red River Athletic Conference",
+    "location": "Hobbs, NM",
+    "type": "Private",
+    "website": "https://https//uswathletics.com/",
+    "coaches": [
+      {
+        "name": "Edrian Negrete",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "University of Wisconsin - Eau Claire",
+    "division": "Division 3",
+    "conference": "Wisconsin Intercollegiate Athletic Conference",
+    "location": "Eau Claire, WI",
+    "type": "Public",
+    "website": "https://www.uwec.edu/",
+    "coaches": [
+      {
+        "name": "Casey Holm",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Utica College",
+    "division": "Division 3",
+    "conference": "Empire 8",
+    "location": "Utica, NY",
+    "type": "Private",
+    "website": "https://www.utica.edu/",
+    "coaches": [
+      {
+        "name": "Brian Marcantonio",
+        "title": "College Head Coach",
+        "email": "blmarcan@utica.edu"
+      }
+    ]
+  },
+  {
+    "name": "Vassar College",
+    "division": "Division 3",
+    "conference": "Liberty League",
+    "location": "Poughkeepsie, NY",
+    "type": "Private",
+    "website": "https://www.vassar.edu/",
+    "coaches": [
+      {
+        "name": "Andrew Mpasiakos",
+        "title": "College Assistant Coach"
+      }
+    ]
+  },
+  {
+    "name": "Virginia Wesleyan University",
+    "division": "Division 3",
+    "conference": "Old Dominion Athletic Conference",
+    "location": "Virginia Beach, VA",
+    "type": "Private",
+    "website": "https://https//www.vwu.edu",
+    "coaches": [
+      {
+        "name": "Shane Kohler",
+        "title": "College Head Coach",
+        "email": "skohler@vwu.edu"
+      }
+    ]
+  },
+  {
+    "name": "Wartburg College",
+    "division": "Division 3",
+    "conference": "American Rivers Conference",
+    "location": "Waverly, IA",
+    "type": "Private",
+    "website": "https://www.wartburg.edu/",
+    "coaches": [
+      {
+        "name": "Christian Coridon",
+        "title": "College Assistant Coach",
+        "email": "Christian.coridon@wartburg.edu"
+      }
+    ]
+  },
+  {
+    "name": "Washington University in St. Louis",
+    "division": "Division 3",
+    "conference": "University Athletic Association",
+    "location": "St. Louis, MO",
+    "type": "Private",
+    "website": "https://www.wustl.edu/",
+    "coaches": [
+      {
+        "name": "Andrew Bordelon",
+        "title": "College Head Coach",
+        "email": "bordelon@wustl.edu"
+      }
+    ]
+  },
+  {
+    "name": "Wheaton College - Illinois",
+    "division": "Division 3",
+    "conference": "College Conference of Illinois & Wisconsin",
+    "location": "Wheaton, IL",
+    "type": "Private",
+    "website": "https://https//athletics.wheaton.edu/",
+    "coaches": [
+      {
+        "name": "Andrew Wade",
+        "title": "College Assistant Coach",
+        "email": "andrew.wade@wheaton.edu"
+      }
+    ]
+  },
+  {
+    "name": "Whitman College",
+    "division": "Division 3",
+    "conference": "Northwest Conference",
+    "location": "Walla Walla, WA",
+    "type": "Private",
+    "website": "https://https//athletics.whitman.edu/index.aspx",
+    "coaches": [
+      {
+        "name": "Jose Cedeno",
+        "title": "College Head Coach"
+      }
+    ]
+  },
+  {
+    "name": "Whittier College",
+    "division": "Division 3",
+    "conference": "Southern California Intercollegiate Athletic Conf.",
+    "location": "Whittier, CA",
+    "type": "Private",
+    "website": "https://www.whittier.edu/",
+    "coaches": [
+      {
+        "name": "Shea Harwell",
+        "title": "College Head Coach",
+        "email": "sharwell@whittier.edu"
+      }
+    ]
+  },
+  {
+    "name": "Willamette University",
+    "division": "Division 3",
+    "conference": "Northwest Conference",
+    "location": "Salem, OR",
+    "type": "Private",
+    "website": "https://https//willamette.edu",
+    "coaches": [
+      {
+        "name": "Matthew Corti-Young",
+        "title": "College Head Coach",
+        "email": "mdcortiyoung@willamette.edu"
+      },
+      {
+        "name": "Jett Starr",
+        "title": "College Assistant Coach",
+        "email": "jestarr@willamette.edu"
+      }
+    ]
+  },
+  {
+    "name": "William Jessup University",
+    "division": "Division 2",
+    "conference": "Pacific West Conference",
+    "location": "Rocklin, CA",
+    "type": "private",
+    "website": "https://www.jessupathletics.com/",
+    "coaches": [
+      {
+        "name": "Danny Ramos",
+        "title": "College Assistant Coach",
+        "email": "dramos@jessup.edu"
+      }
+    ]
+  },
+  {
+    "name": "William Woods University",
+    "division": "NAIA",
+    "conference": "American Midwest Conference",
+    "location": "Fulton, MO",
+    "type": "private",
+    "website": "https://https//wwuowls.com/sports/womens-soccer",
+    "coaches": [
+      {
+        "name": "Tommy Nienhaus",
+        "title": "College Head Coach"
+      }
+    ]
+  }
+]

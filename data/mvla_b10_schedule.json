@@ -1,0 +1,59 @@
+[
+  {
+    "rawText": "-- Select --  Nov 21, 2025  Nov 22, 2025  Nov 23, 2025 Date -- Select --  1974 Newark FC ECNL B10  3RSC ECNL B10  Arizona Arsenal ECNL B10  Association FC ECNL B10  Beach FC (CA) ECNL B10  Beach FC (CA) ECNL RL B10  Boise Timbers FC ECNL B10  CCV Stars ECNL B10  Chicago Magic - ENCL B10  Colorado Rapids ECNL B10  Colorado Rush Academy Blue ECNL B10  Columbia Premier SC ECNL B10  COSC ECNL B10  Dallas Texans - ECNL B10  Dallas Texans Academy - ECNL B10  Davis Legacy ECNL B10  Doral Soccer Club - ECNL B10  Eastside FC ECNL B10  El Camino Futbol Club Salinas - ECNL B10  El Paso Locomotive Youth Soccer Club - ECNL B10  FC Dallas Red ECNL B10  FC Dallas White ECNL B10  Folsom Lake Surf - FLS ECNL RL B10  Fort Lauderdale United FC ECNL B10  Gretna Elite Academy ECNL B10  HTX ECNL B10  Idaho Rush ECNL B10  LA Breakers FC ECNL B10  La Roca FC ECNL B2010  LAFC So Cal ECNL B10  Legends FC ECNL B10  Legends FC San Diego ECNL B10  Los Gatos United ECNL BU16  LV Heat Surf ECNL B10  Marin FC ECNL B10  Mustang SC ECNL B10  MVLA ECNL B10  NM Rapids ECNL B10  OK Energy FC ECNL B10  Oregon Premier FC - ECNL B10  PacNW SC ECNL B10  Pateadores ECNL B10  Placer United ECNL B10  Real Colorado Academy ECNL B10  Rebels SC ECNL B10  RISE SC - ECNL B10  River Islands Surf - B10 ECNL  Rockford Raptors ECNL B10  SAFC ECNL B10  San Antonio City SC ECNL B10  San Diego Surf ECNL B10  San Francisco Elite Academy ECNL B10  San Juan SC - ECNL B10  Santa Clara Sporting ECNL B10  Santa Rosa United - ECNL B10  SDSC Surf ECNL B10  Seattle United ECNL B10  Slammers FC ECNL B10  Snohomish United - B10 ECNL  Solar SC Academy ECNL B10  SOLAR SC ECNL B10  Sporting CA USA ECNL B10  Sporting Iowa ECNL B10  United PDX ECNL B10  Utah Avalanche ECNL B10  VSA Rush ECNL B10  Washington Premier ECNL B10  West Coast FC ECNL B10  XF B10 Academy ECNL  XF B10 ECNL Club/Team -- Select --  Reach 11 Sports Complex  Reata Sports Complex Complex -- Select -- VenueResetSearch",
+    "date": "Nov 21, 2025",
+    "time": null,
+    "opponent": "Stars ECNL B",
+    "field": null,
+    "location": null,
+    "html": "<div _ngcontent-yqy-c7=\"\" class=\"col-xs-6 col-sm-2 col-md-2 col-lg-2\"><div _ngcontent-yqy-c7=\"\" class=\"form-group\"><div _ngcontent-yqy-c7=\"\" class=\"form-material\"><select _ngcontent-yqy-c7=\"\" class=\"form-control ng-untouched ng-pristine ng-valid\" formcontrolname=\"date\" size=\"1\"><option _ngcontent-yqy-c7=\"\" value=\"0\"> -- Select -- </option><!----><option _ngcontent-yqy-c7=\"\" value=\"2025-11-21T00:00:00\"> Nov 21, 2025 </option><option _ngcontent-yqy-c7=\"\" value=\"2025-11-22T00:00:00\"> Nov 22, 2025 <"
+  },
+  {
+    "rawText": "969315 Nov 21, 2025 10:00 AMB2010 - PhoenixMVLA ECNL B10Dallas Texans - ECNL B10 Reata Sports Complex  - Field #19  Game Preview",
+    "date": "Nov 21, 2025",
+    "time": "10:00 AM",
+    "opponent": null,
+    "field": "Field #19",
+    "location": null,
+    "cells": [
+      "969315",
+      "Nov 21, 2025 10:00 AMB2010 - Phoenix",
+      "MVLA ECNL B10Dallas Texans - ECNL B10 Reata Sports Complex  - Field #19",
+      "Game Preview",
+      ""
+    ],
+    "html": "<td _ngcontent-yqy-c7=\"\" class=\"valign-middle text-center\"><div _ngcontent-yqy-c7=\"\">969315</div></td><td _ngcontent-yqy-c7=\"\" class=\"valign-middle\" style=\"min-width: 100px;\"><div _ngcontent-yqy-c7=\"\" class=\"font-w600 font-s13\"> Nov 21, 2025 </div><div _ngcontent-yqy-c7=\"\" class=\"font-s12 line-space-10\">10:00 AM</div><div _ngcontent-yqy-c7=\"\" class=\"font-s13\">B2010 - Phoenix</div></td><td _ngcontent-yqy-c7=\"\" class=\"valign-middle\" style=\"min-width: 200px;\"><div _ngcontent-yqy-c7=\"\" class=\"font-s"
+  },
+  {
+    "rawText": "969409 Nov 22, 2025 08:00 AMB2010 - PhoenixMVLA ECNL B10Chicago Magic - ENCL B10 Reata Sports Complex  - Field #20  Game Preview",
+    "date": "Nov 22, 2025",
+    "time": "08:00 AM",
+    "opponent": null,
+    "field": "Field #20",
+    "location": null,
+    "cells": [
+      "969409",
+      "Nov 22, 2025 08:00 AMB2010 - Phoenix",
+      "MVLA ECNL B10Chicago Magic - ENCL B10 Reata Sports Complex  - Field #20",
+      "Game Preview",
+      ""
+    ],
+    "html": "<td _ngcontent-yqy-c7=\"\" class=\"valign-middle text-center\"><div _ngcontent-yqy-c7=\"\">969409</div></td><td _ngcontent-yqy-c7=\"\" class=\"valign-middle\" style=\"min-width: 100px;\"><div _ngcontent-yqy-c7=\"\" class=\"font-w600 font-s13\"> Nov 22, 2025 </div><div _ngcontent-yqy-c7=\"\" class=\"font-s12 line-space-10\">08:00 AM</div><div _ngcontent-yqy-c7=\"\" class=\"font-s13\">B2010 - Phoenix</div></td><td _ngcontent-yqy-c7=\"\" class=\"valign-middle\" style=\"min-width: 200px;\"><div _ngcontent-yqy-c7=\"\" class=\"font-s"
+  },
+  {
+    "rawText": "969570 Nov 23, 2025 08:00 AMB2010 - PhoenixSnohomish United - B10 ECNLMVLA ECNL B10 Reata Sports Complex  - Field #19  Game Preview",
+    "date": "Nov 23, 2025",
+    "time": "08:00 AM",
+    "opponent": null,
+    "field": "Field #19",
+    "location": null,
+    "cells": [
+      "969570",
+      "Nov 23, 2025 08:00 AMB2010 - Phoenix",
+      "Snohomish United - B10 ECNLMVLA ECNL B10 Reata Sports Complex  - Field #19",
+      "Game Preview",
+      ""
+    ],
+    "html": "<td _ngcontent-yqy-c7=\"\" class=\"valign-middle text-center\"><div _ngcontent-yqy-c7=\"\">969570</div></td><td _ngcontent-yqy-c7=\"\" class=\"valign-middle\" style=\"min-width: 100px;\"><div _ngcontent-yqy-c7=\"\" class=\"font-w600 font-s13\"> Nov 23, 2025 </div><div _ngcontent-yqy-c7=\"\" class=\"font-s12 line-space-10\">08:00 AM</div><div _ngcontent-yqy-c7=\"\" class=\"font-s13\">B2010 - Phoenix</div></td><td _ngcontent-yqy-c7=\"\" class=\"valign-middle\" style=\"min-width: 200px;\"><div _ngcontent-yqy-c7=\"\" class=\"font-s"
+  }
+]

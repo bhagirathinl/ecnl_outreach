@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database (always runs in Docker)
+  postgres:
+    image: postgres:15-alpine
+    container_name: ecnl-db
+    environment:
+      POSTGRES_USER: ecnl_user
+      POSTGRES_PASSWORD: ecnl_pass
+      POSTGRES_DB: ecnl_outreach
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ecnl_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Optional: Adminer for database GUI
+  adminer:
+    image: adminer
+    container_name: ecnl-adminer
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

@@ -1,0 +1,23 @@
+{
+  "name": "ecnl-outreach-scraper",
+  "version": "1.0.0",
+  "description": "ECNL event college scout scraper and recruiting outreach tool",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper/eventScraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecnl",
+    "recruiting",
+    "soccer",
+    "scraper"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "dotenv": "^16.4.5"
+  }
+}

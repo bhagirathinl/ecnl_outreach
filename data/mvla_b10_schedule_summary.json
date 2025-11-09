@@ -1,0 +1,39 @@
+{
+  "eventName": "Total Global Sports",
+  "team": "MVLA B10 (2010 Boys)",
+  "totalGames": 4,
+  "games": [
+    {
+      "gameNumber": 1,
+      "date": "Nov 21, 2025",
+      "time": null,
+      "opponent": "Stars ECNL B",
+      "field": null,
+      "rawDetails": "-- Select --  Nov 21, 2025  Nov 22, 2025  Nov 23, 2025 Date -- Select --  1974 Newark FC ECNL B10  3RSC ECNL B10  Arizona Arsenal ECNL B10  Association FC ECNL B10  Beach FC (CA) ECNL B10  Beach FC (C"
+    },
+    {
+      "gameNumber": 2,
+      "date": "Nov 21, 2025",
+      "time": "10:00 AM",
+      "opponent": null,
+      "field": "Field #19",
+      "rawDetails": "969315 Nov 21, 2025 10:00 AMB2010 - PhoenixMVLA ECNL B10Dallas Texans - ECNL B10 Reata Sports Complex  - Field #19  Game Preview"
+    },
+    {
+      "gameNumber": 3,
+      "date": "Nov 22, 2025",
+      "time": "08:00 AM",
+      "opponent": null,
+      "field": "Field #20",
+      "rawDetails": "969409 Nov 22, 2025 08:00 AMB2010 - PhoenixMVLA ECNL B10Chicago Magic - ENCL B10 Reata Sports Complex  - Field #20  Game Preview"
+    },
+    {
+      "gameNumber": 4,
+      "date": "Nov 23, 2025",
+      "time": "08:00 AM",
+      "opponent": null,
+      "field": "Field #19",
+      "rawDetails": "969570 Nov 23, 2025 08:00 AMB2010 - PhoenixSnohomish United - B10 ECNLMVLA ECNL B10 Reata Sports Complex  - Field #19  Game Preview"
+    }
+  ]
+}

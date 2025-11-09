@@ -1,0 +1,270 @@
+// Prisma Schema for ECNL Outreach Platform
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Player/User Profile
+model PlayerProfile {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Personal Info
+  firstName      String
+  lastName       String
+  email          String   @unique
+  position       String?  // Midfielder, Forward, Defender, Goalkeeper
+  jerseyNumber   Int?
+  graduationYear Int
+  dateOfBirth    DateTime?
+
+  // Academic Info
+  gpaWeighted    Float?
+  gpaUnweighted  Float?
+  satScore       Int?
+  actScore       Int?
+  intendedMajor  String?
+  academicInterests String[]
+
+  // Athletic Info
+  clubTeam       String?
+  currentSeasonStats Json? // {goals, assists, gamesPlayed}
+  careerStats    Json?
+  achievements   String[]
+
+  // Media
+  highlightVideos Json[] // [{url, title, platform}]
+
+  // Relations
+  campaigns Campaign[]
+  games     PlayerGame[]
+}
+
+// Events (ECNL Phoenix, etc.)
+model Event {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  name              String
+  startDate         DateTime
+  endDate           DateTime
+  location          String?
+  venue             String?
+  eventType         String? // 'ECNL', 'Showcase', etc.
+  externalEventId   String? // TGS event ID
+
+  // Relations
+  games       PlayerGame[]
+  attendance  EventAttendance[]
+  campaigns   Campaign[]
+}
+
+// Player's Games in an Event
+model PlayerGame {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  playerId  String
+  player    PlayerProfile @relation(fields: [playerId], references: [id], onDelete: Cascade)
+
+  eventId   String
+  event     Event @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  gameDate  DateTime
+  gameTime  String
+  opponent  String?
+  field     String?
+  notes     String?
+}
+
+// Colleges
+model College {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  name       String
+  division   String? // 'Division 1', 'Division 2', etc.
+  conference String?
+  city       String?
+  state      String?
+  schoolType String? // 'Public', 'Private'
+  website    String?
+
+  // Relations
+  coaches    Coach[]
+  attendance EventAttendance[]
+  targets    CampaignTarget[]
+
+  @@unique([name, division])
+}
+
+// Coaches
+model Coach {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  collegeId String
+  college   College @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+
+  fullName   String
+  title      String? // 'Head Coach', 'Assistant Coach'
+  email      String?
+  phone      String?
+
+  // Relations
+  attendance EventAttendance[]
+  targets    CampaignTarget[]
+}
+
+// Which scouts are attending which events
+model EventAttendance {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+
+  eventId   String
+  event     Event @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  collegeId String
+  college   College @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+
+  coachId   String?
+  coach     Coach? @relation(fields: [coachId], references: [id], onDelete: SetNull)
+
+  @@unique([eventId, collegeId, coachId])
+}
+
+// Outreach Campaigns
+model Campaign {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  playerId  String
+  player    PlayerProfile @relation(fields: [playerId], references: [id], onDelete: Cascade)
+
+  eventId   String?
+  event     Event? @relation(fields: [eventId], references: [id], onDelete: SetNull)
+
+  name      String
+  status    String @default("draft") // 'draft', 'active', 'paused', 'completed'
+
+  // Relations
+  targets   CampaignTarget[]
+}
+
+// Selected coaches for a campaign
+model CampaignTarget {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  campaignId String
+  campaign   Campaign @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+
+  collegeId  String
+  college    College @relation(fields: [collegeId], references: [id], onDelete: Cascade)
+
+  coachId    String
+  coach      Coach @relation(fields: [coachId], references: [id], onDelete: Cascade)
+
+  status     String @default("pending")
+  // 'pending', 'draft_ready', 'approved', 'sent', 'opened', 'replied'
+
+  // Relations
+  drafts     EmailDraft[]
+  sentEmails SentEmail[]
+  responses  EmailResponse[]
+
+  @@unique([campaignId, coachId])
+}
+
+// AI-generated email drafts
+model EmailDraft {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  targetId  String
+  target    CampaignTarget @relation(fields: [targetId], references: [id], onDelete: Cascade)
+
+  subject   String
+  body      String
+
+  aiGenerated Boolean @default(true)
+  edited      Boolean @default(false)
+  approved    Boolean @default(false)
+
+  generationPrompt String?
+
+  // Relations
+  sentEmail SentEmail?
+}
+
+// Sent emails
+model SentEmail {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  targetId  String
+  target    CampaignTarget @relation(fields: [targetId], references: [id], onDelete: Cascade)
+
+  draftId   String?  @unique
+  draft     EmailDraft? @relation(fields: [draftId], references: [id], onDelete: SetNull)
+
+  subject   String
+  body      String
+  fromEmail String
+  toEmail   String
+
+  // Tracking
+  sentAt     DateTime  @default(now())
+  openedAt   DateTime?
+  clickedAt  DateTime?
+  repliedAt  DateTime?
+  bounced    Boolean   @default(false)
+
+  // External IDs
+  sendgridMessageId String?
+
+  emailType String @default("initial") // 'initial', 'follow_up_1', 'follow_up_2'
+
+  // Relations
+  responses EmailResponse[]
+}
+
+// Coach responses
+model EmailResponse {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  sentEmailId String
+  sentEmail   SentEmail @relation(fields: [sentEmailId], references: [id], onDelete: Cascade)
+
+  targetId    String
+  target      CampaignTarget @relation(fields: [targetId], references: [id], onDelete: Cascade)
+
+  fromEmail   String
+  subject     String?
+  body        String
+  receivedAt  DateTime
+
+  // AI Classification
+  sentiment   String? // 'interested', 'not_interested', 'neutral', 'needs_info'
+  confidence  Float?
+
+  // Manual override
+  userClassified Boolean @default(false)
+  userSentiment  String?
+}
